@@ -8,17 +8,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #AB2929;
-  color: #212121;
+  color: black;
   line-height: 1.5;
 }
 
 #search-box {
   font: inherit;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 25px;
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   margin-top: 35px;
   margin-left: 85px;
   border: none;
@@ -38,14 +38,13 @@ body {
 .country-list li {
   display: flex;
   align-items: center;
-  padding-bottom: 10px;
-  font-size: 20px;
+  padding-bottom: 25px;
+  font-size: 25px;
   font-weight: 600;
 }
 
 .country-list img,
 .country-info img {
-  border-radius: 10px;
   margin-right: 10px;
 }
 
